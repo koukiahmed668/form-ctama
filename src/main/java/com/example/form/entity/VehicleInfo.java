@@ -29,6 +29,10 @@ public class VehicleInfo {
     @Column(name = "price_venale")
     private Integer priceVenale;
 
+    @Column(name = "cin")
+    private String cin;
+
+
     @Column(name = "nom")
     private String nom;
 
